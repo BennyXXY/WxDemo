@@ -1,16 +1,33 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/logs/logs",
     "pages/index2/index2",
     "pages/index3/index3"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#0092cc",
     "navigationBarTitleText": "全局",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#0094ff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/index.png",
+        "selectedIconPath": "icon/index_active.png"
+      },
+      {
+        "pagePath": "pages/index2/index2",
+        "text": "分类",
+        "iconPath": "icon/category.png",
+        "selectedIconPath": "icon/category_active.png"
+      }
+    ]
+  }
 }
