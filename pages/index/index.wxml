@@ -7,7 +7,13 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <view class="mapsize"><map longitude="111.73" latitude="40.83"></map></view>
+  <view><map style="height:300px" longitude="111.73" latitude="40.83">
+      <cover-view class="flex-wrp">
+        <cover-view class="flex-item demo-text-1"></cover-view>
+        <cover-view class="flex-item demo-text-2"></cover-view>
+        <cover-view class="flex-item demo-text-3"></cover-view>
+      </cover-view>
+    </map></view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
