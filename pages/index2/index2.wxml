@@ -1,5 +1,5 @@
 <!--wxml-->
-<template name="staffName">
+<!-- <template name="staffName">
   <view>
     FirstName: {{firstName}}, LastName: {{lastName}}
   </view>
@@ -7,10 +7,42 @@
 
 <template is="staffName" data="{{...staffA}}"></template>
 <template is="staffName" data="{{...staffB}}"></template>
-<template is="staffName" data="{{...staffC}}"></template>
+<template is="staffName" data="{{...staffC}}"></template> -->
 
 <view wx:if="{{view == 'WEBVIEW'}}"> WEBVIEW </view>
 <view wx:elif="{{view == 'APP'}}"> APP </view>
 <view wx:else="{{view == 'MINA'}}"> MINA </view>
 
-<view wx:for="{{array}}" wx:key="key">{{item}} </view>
+<view hidden="{{flag ? true : false}}" wx:for="{{array}}" wx:key="key">{{item}} </view>
+<view id="item-{{id}}">{{id}}</view>
+<view hidden="{{flag ? true : false}}"> Hidden </view>
+<checkbox checked="{{checkflag}}">单选</checkbox>
+<view>{{object.key}}{{arrays}}</view>
+<template name="objectCombine">
+  <view>{{a}}</view>
+</template>
+<template is="objectCombine" data="{{...obj1, ...obj2, e: 5}}"></template>
+<view wx:for="{{arrays2}}">
+  {{index}}:{{item.message}}
+</view>
+<view wx:for="{{arrays2}}" wx:for-index="idx" wx:for-item="itemName">
+  {{index}}:{{itemName.message}}
+</view>
+<!-- <view wx:for="{{[1,2,4,5,6,7,8,9]}}" wx:for-item="i">
+  <view wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="j">
+    <view wx:if="{{i<=j}}">
+      {{i}}*{{j}}={{i*j}}
+    </view>
+  </view>
+</view> -->
+
+<block wx:for="{{[1,2,3]}}">
+  <view>{{index}}:</view>
+  <view>{{item}}</view>
+</block>
+
+<switch wx:for="{{objectArray}}" wx:key="unique" style="display:block;">{{item.id}}</switch>
+<button bindtap="switch">Switch</button>
+<button bindtap="addToFront"> Add to the front </button>
+<switch wx:for="{{numberArray}}" wx:key="*this" style="display:block;">{{item}}</switch>
+<button bindtap="addNumberToFront"> Add to the front </button>
