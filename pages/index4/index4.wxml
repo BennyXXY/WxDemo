@@ -23,3 +23,10 @@
 <view>{{tools.FOO}}</view>
 <view>{{tools.foo}}</view>
 <wxs src="../logic.wxs" module="logic"></wxs>
+<view id="tapTest" data-hi="Weixin" bindtap="tapName">Click</view>
+<wxs module="wxs" src="../test.wxs"></wxs>
+<view id="tapTest" data-hi="Weixin" bindtap="{{wxs.tapName}}">Click 2</view>
+<view data-alpha-beta="1" data-alphaBeta="2" bindtap="bindViewTap"> DataSet Test </view>
+<view mark:myMark="last" bindtap="bindViewtap1">
+  <button mark:anotherMark="leaf" bindtap="bindButtonTap">按钮</button>
+</view>

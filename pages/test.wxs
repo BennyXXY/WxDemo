@@ -1,0 +1,6 @@
+function tapName(event, ownerInstance) {
+  console.log('tap Weixin', JSON.stringify(event))
+}
+module.exports = {
+  tapName: tapName
+}

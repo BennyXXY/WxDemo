@@ -10,7 +10,23 @@ Page({
       msg: 'This is a template',
       time: '2016-09-15'
     },
-    items: 0  
+    items: 0
+  },
+
+  /**
+   * 事件绑定
+   * @param {} event 
+   */
+  tapName: function (event) {
+    console.log(event)
+  },
+  bindViewTap: function (event) {
+    event.currentTarget.dataset.alphaBeta === 1 // - 会转为驼峰写法
+    event.currentTarget.dataset.alphabeta === 2 // 大写会转为小写
+  },
+  bindViewtap1: function (event) {
+    event.mark.myMark === "last"
+    event.mark.anotherMark === "leaf"
   },
 
   /**
