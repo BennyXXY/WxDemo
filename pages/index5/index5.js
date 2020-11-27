@@ -1,42 +1,18 @@
-// pages/index4/index4.js
+// pages/index5/index5.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    item: {
-      index: 0,
-      msg: 'This is a template',
-      time: '2016-09-15'
-    },
-    items: 0
-  },
 
-  /**
-   * 事件绑定
-   * @param {} event 
-   */
-  tapName: function (event) {
-    console.log(event)
-  },
-  bindViewTap: function (event) {
-    event.currentTarget.dataset.alphaBeta === 1 // - 会转为驼峰写法
-    event.currentTarget.dataset.alphabeta === 2 // 大写会转为小写
-  },
-  bindViewtap1: function (event) {
-    event.mark.myMark === "last"
-    event.mark.anotherMark === "leaf"
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    const ctx = wx.createCanvasContext('myCanvas')
-    ctx.setFillStyle('red')
-    ctx.fillRect(10, 10, 150, 75)
-    ctx.draw()
+
   },
 
   /**

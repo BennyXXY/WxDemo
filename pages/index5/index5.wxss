@@ -1,0 +1,69 @@
+/* pages/index5/index5.wxss */
+.page {
+  height: 400rpx;
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* align-items: baseline; */
+  /* justify-content: space-around; */
+  margin-bottom: 30rpx;
+  /* position: absolute; */
+}
+
+.view_one {
+  width: 100rpx;
+  height: 100rpx;
+  text-align: center;
+  background-color: red;
+}
+
+.view_two {
+  height: 100rpx;
+  width: 100rpx;
+  background-color: green;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1rpx solid #CCC;
+  margin: 20rpx;
+  border-radius: 20rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+
+.input {
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  flex: 1;
+}
+
+.view {
+  height: 100rpx;
+  width: 100rpx;
+  background: rebeccapurple;
+  color: white;
+  position: relative;
+  top: 30rpx;
+  left: 100rpx;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+}
+.test{
+  width: 100rpx;
+  height: 100rpx;
+  background: red;
+  position: fixed;
+}
+.item{
+  padding-top: 40rpx;
+  padding-bottom: 40rpx;
+  border-bottom: 1rpx solid #CCC;
+}

@@ -1,0 +1,20 @@
+<view class="page">
+  <view class="view_one">test1</view>
+  <view class="view_two">test2</view>
+  <!-- <view class="view_one">test3</view>
+  <view class="view_two">test4</view>
+  <view class="view_one">test5</view>
+  <view class="view_two">test6</view> -->
+</view>
+
+<view class="row">
+  <input class="input" placeholder="please input" />
+  <icon type="clear" />
+</view>
+
+<view class="view">View</view>
+
+<view class="column">
+  <view class="test">test</view>
+  <view wx:for="12123123" class="item">test{{index}}</view>
+</view>

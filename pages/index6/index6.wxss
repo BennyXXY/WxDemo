@@ -1,0 +1,58 @@
+/* pages/index6/index6.wxss */
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20rpx;
+  border: 1rpx solid #ccc;
+}
+
+.title {
+  font-size: 30rpx;
+}
+
+.imgs {
+  width: 670rpx;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20rpx;
+}
+
+.img1 {
+  width: 220rpx;
+  height: 150rpx;
+  background: red;
+}
+
+.img2 {
+  height: 150rpx;
+  width: 220rpx;
+  background: green;
+  margin-left: 5rpx;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15rpx;
+}
+
+.bottom-name{
+  margin-left: 10rpx;
+  font-size: 25rpx;
+  color: #ccc;
+}
+
+.bottom-comment{
+  font-size: 25rpx;
+  color: #ccc;
+  margin-left: 20rpx;
+}

@@ -1,0 +1,14 @@
+<view class="page">
+  <view class="item" wx:for="111111111111111">
+    <view>动人！就在今天，杜兰特赛后发表了这番“让全联盟致敬”的言论</view>
+    <view class="imgs">
+      <image src='' class='img1'></image>
+      <image src='' class='img2'></image>
+      <image src='' class='img2'></image>
+    </view>
+    <view class="bottom">
+      <view class="bottom-name">NBA战报</view>
+      <view class="bottom-comment">74评</view>
+    </view>
+  </view>
+</view>
