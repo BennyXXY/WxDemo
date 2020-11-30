@@ -12,7 +12,13 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    console.log(options)
+    const eventChannel = this.getOpenerEventChannel()
+    eventChannel.emit('acceptDataFromOpenedPage', { data: 'test' })
+    eventChannel.emit('someEvent', { data: '啦啦啦' })
+    eventChannel.on('acceptDataFromOpenerPage', function (data) {
+      console.log(data)
+    })
   },
 
   /**
