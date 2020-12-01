@@ -1,1 +1,6 @@
 <view bindtap="tzonclic">此页面7跳转到6</view>
+<view bindtap="">页面跳转</view>
+<navigator url="../index5/index5" open-type="navigate">navigate跳转</navigator>
+<navigator url="../index4/index4" open-type="redirect">redirect跳转</navigator>
+<navigator url="../index/index" open-type="switchTab">switchTab跳转</navigator>
+<navigator url="../index2/index2" open-type="reLaunch">reLaunch跳转</navigator>
