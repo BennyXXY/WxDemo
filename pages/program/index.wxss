@@ -1,0 +1,22 @@
+page{
+  color: #666666;
+}
+
+.nav_wrap{
+
+}
+.nav{
+  /* 不换行 */
+  white-space: nowrap;
+  padding: 5rpx 0;
+}
+
+.nav_item{
+  padding: 20rpx 45rpx;
+  font-size: 30rpx;
+  display: inline-block;
+}
+
+.nav_item.active{
+  border-bottom: 5rpx solid #de688b;
+}

@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/program/index",
     "pages/index7/index7",
     "pages/index6/index6",
     "pages/index5/index5",
@@ -12,7 +13,7 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#0092cc",
+    "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTitleText": "全局",
     "navigationBarTextStyle": "black"
   },
