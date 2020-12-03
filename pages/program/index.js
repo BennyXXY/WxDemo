@@ -8,7 +8,11 @@ Page({
     //被点击首页导航的索引
     currentIndexNav: 0,
     //首页导航数组
-    navList: []
+    navList: [],
+    //轮播图数据
+    swiperList: [],
+    //视频列表
+    videosList: []
   },
   //点击首页导航按钮
   activeNav(e) {
@@ -33,12 +37,52 @@ Page({
       }
     })
   },
+
+  /**
+   * 获取视频列表
+   */
+  getVideosList() {
+    let that = this;
+    wx.request({
+      url: 'https://easy-mock.com/mock/5c1dfd98e8bfa547414a5278/bili/videosList',
+      success(res) {
+        console.log(res)
+        if (res.data.code === 0) {
+          that.setData({
+            videosList: res.data.data.videosList
+          })
+        }
+      }
+    })
+  },
+
+  /**
+   * 轮播图获取接口
+   */
+  getSwiperList() {
+    let that = this;
+    wx.request({
+      url: 'https://easy-mock.com/mock/5c1dfd98e8bfa547414a5278/bili/swiperList',
+      success(res) {
+        console.log(res)
+        if (res.data.code === 0) {
+          that.setData({
+            swiperList: res.data.data.swiperList
+          })
+        }
+      }
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
     //1 获取首页导航数据
     this.getNavList();
+    //2 获取轮播图
+    this.getSwiperList();
+    //3 获取视频列表
+    this.getVideosList();
   },
 
   /**

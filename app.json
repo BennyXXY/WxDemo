@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/program/index",
+    "pages/detail/detail",
     "pages/index7/index7",
     "pages/index6/index6",
     "pages/index5/index5",
