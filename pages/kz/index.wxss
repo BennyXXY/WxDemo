@@ -58,10 +58,12 @@
   display: flex;
 }
 .item_right .item_btn{
-  width: 200rpx;
-  font-size: 17rpx; 
+  width: 180rpx;
+  font-size: 20rpx; 
   margin-right: 20rpx;
   border: 1rpx solid #666666;
+  border-radius: 15rpx;
+  padding: 10rpx;
 }
 
 .point{
@@ -70,6 +72,7 @@
   background: red;
   border-radius: 50%;
   position: relative;
-  right: 50rpx;
+  right: 45rpx;
   top: 5rpx;
+  border-radius: 50%;
 }
