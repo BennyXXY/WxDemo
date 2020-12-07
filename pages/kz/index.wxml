@@ -1,0 +1,29 @@
+<view class="main">
+    <view class="search">
+        <icon bindtap="leftact" class="left" type="search"></icon>
+        <input class="input" value="{{input}}" placeholder="课桌搜索" />
+        <icon bindtap="rightact" class="right" type="clear"></icon>
+    </view>
+
+    <view class="item_wrap">
+        <navigator class="item" wx:for="{{itemList}}" wx:key="index" url="">
+            <view class="item_left">
+                <text class="">课程名称：{{item.classname}}</text>
+                <view>
+                    <text class="item_lef_tch">授课老师：{{item.classteacher}}</text>
+                    <text>{{item.classnum}} 人</text>
+                </view>
+                <view class="item_tag">
+                    <text class="item_tag_tx" wx:for="{{item.tag}}" wx:key="index">
+                        {{item.tagitem.length>0?item.tagitem:"无标签"}}
+                    </text>
+                </view>
+            </view>
+
+            <view class="item_right">
+                <button class="item_btn">查看课程报告</button>
+                <view class="point"></view>
+            </view>
+        </navigator>
+    </view>
+</view>

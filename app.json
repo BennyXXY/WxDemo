@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/kz/index",
+    "pages/my/index",
     "pages/program/index",
     "pages/detail/detail",
     "pages/index7/index7",
@@ -15,22 +17,23 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#ffffff",
-    "navigationBarTitleText": "全局",
+    "navigationBarTitleText": "课桌APP",
     "navigationBarTextStyle": "black"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
+  "debug": false,
   "tabBar": {
     "selectedColor": "#0094ff",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/kz/index",
         "text": "首页",
         "iconPath": "icon/index.png",
         "selectedIconPath": "icon/index_active.png"
       },
       {
-        "pagePath": "pages/index2/index2",
+        "pagePath": "pages/index5/index5",
         "text": "分类",
         "iconPath": "icon/category.png",
         "selectedIconPath": "icon/category_active.png"
