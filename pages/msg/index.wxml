@@ -1,0 +1,32 @@
+<view class="main">
+  <view class="class_wrap">
+    <text class="class_name">课程名称：数学</text>
+    <text class="class_teacher">授课老师：</text>
+    <view class="class_teacher_msg_wrap">
+      <image class="img_head" src="../../icon/user.jpg"></image>
+      <text class="class_teacher_name">数学王老师</text>
+    </view>
+  </view>
+
+  <view class="class_time_wrap">
+    <text class="class_time">上课时间：2020.11.25 12：00-2020.11.16 12：00</text>
+    <text class="class_sj_time">实际进出时间：</text>
+    <text class="class_sj_time_list" wx:for="{{3}}">2020.11.25 12：00-2020.11.16 12</text>
+  </view>
+
+  <view class="point_wrap">
+    <text class="teacher_point">老师评分：100分</text>
+    <text class="teacher_evaluate">老师评语：今天学习不好啊</text>
+  </view>
+
+  <view class="case_wrap">
+    <text class="case_class">课堂实时情况：</text>
+    <text class="case_class_msg">举手3次，被强制下线1次</text>
+  </view>
+
+  <view class="interact_wrap">
+    <text class="interact_class">课堂互动情况：</text>
+    <text class="interact_class_msg">获取奖励3次，获取讲评3次</text>
+    <text class="interact_class_img">截取当时效果图</text>
+  </view>
+</view>

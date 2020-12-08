@@ -6,7 +6,7 @@
     </view>
 
     <view class="item_wrap">
-        <navigator class="item" wx:for="{{itemList}}" wx:key="index" url="">
+        <navigator class="item" wx:for="{{itemList}}" wx:key="index" url="../msg/index">
             <view class="item_left">
                 <text class="">课程名称：{{item.classname}}</text>
                 <view>

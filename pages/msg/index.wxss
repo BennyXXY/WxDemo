@@ -1,0 +1,116 @@
+.main {
+  padding: 10rpx;
+}
+
+.class_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1rpx solid #666666;
+}
+
+.class_wrap text {
+  font-size: 25rpx;
+}
+
+.img_head {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.class_name {
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+  margin-bottom: 20rpx;
+}
+
+.class_teacher {
+  margin-left: 30rpx;
+  margin-bottom: 20rpx;
+}
+
+.class_teacher_msg_wrap {
+  display: flex;
+  align-items: center;
+  margin-left: 50rpx;
+  margin-bottom: 10rpx;
+}
+
+.class_teacher_name {
+  margin-left: 20rpx;
+}
+
+/**上课时间**/
+.class_time_wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx 0 20rpx 20rpx;
+  border-bottom: 1rpx solid #666666;
+}
+
+.class_sj_time {
+  padding: 20rpx 0 20rpx 10rpx;
+}
+
+.class_sj_time_list {
+  margin-left: 120rpx;
+  margin-bottom: 10rpx;
+}
+
+.class_time_wrap text {
+  font-size: 25rpx;
+}
+
+/**评语部分**/
+.point_wrap {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1rpx solid #666666;
+}
+
+.point_wrap text {
+  font-size: 25rpx;
+}
+
+.teacher_point {
+  padding: 20rpx 0 0 20rpx;
+}
+
+.teacher_evaluate {
+  padding: 20rpx 0 20rpx 20rpx;
+}
+
+/**课堂情况**/
+.case_wrap{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1rpx solid #666666;
+}
+.case_wrap text{
+  font-size: 25rpx;
+}
+.case_class {
+  padding: 20rpx 0 0 20rpx;
+}
+
+.case_class_msg {
+  padding: 20rpx 0 20rpx 20rpx;
+}
+/**课堂情况**/
+.interact_wrap{
+  display: flex;
+  flex-direction: column;
+  /* border-bottom: 1rpx solid #666666; */
+}
+.interact_wrap text{
+  font-size: 25rpx;
+}
+.interact_class{
+  padding: 20rpx 0 0 20rpx;
+}
+.interact_class_msg{
+  padding: 20rpx 0 20rpx 20rpx;
+}
+.interact_class_img{
+  padding: 0 0 20rpx 20rpx;
+}
