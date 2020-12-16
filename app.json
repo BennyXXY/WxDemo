@@ -1,6 +1,6 @@
 {
   "pages": [
-   
+    "pages/msg2/index2",
     "pages/kz/index",
     "pages/my/index",
     "pages/msg/index",
@@ -27,15 +27,14 @@
   "debug": false,
   "tabBar": {
     "selectedColor": "#0094ff",
-    "list": [
-      {
-        "pagePath": "pages/kz/index",
+    "list": [{
+        "pagePath": "pages/msg2/index2",
         "text": "首页",
         "iconPath": "icon/index.png",
         "selectedIconPath": "icon/index_active.png"
       },
       {
-        "pagePath": "pages/my/index",
+        "pagePath": "pages/msg2/index2",
         "text": "分类",
         "iconPath": "icon/category.png",
         "selectedIconPath": "icon/category_active.png"

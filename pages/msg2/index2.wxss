@@ -1,0 +1,109 @@
+.main {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  overflow-y: auto;
+}
+
+.line {
+  border-bottom: 1rpx solid #666666;
+  margin: 0 40rpx;
+}
+
+/**课堂详情布局**/
+.class_wrap {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1rpx solid black;
+  margin: 5%;
+  border-radius: 30rpx;
+}
+
+.class_hint_side {
+  width: 10rpx;
+  height: 30rpx;
+  background-color: #00BFA5;
+}
+
+.class_hint_wrap {
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+}
+
+.class_hint {
+  margin-left: 30rpx;
+  font-weight: bold;
+  font-size: 30rpx;
+}
+
+/**课堂item**/
+.class_layout_wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 80rpx;
+  justify-content: space-between;
+  margin: 0 40rpx;
+  border-bottom: 1rpx solid #666666;
+}
+
+.class_layout_wrap:nth-last-child(1) {
+  border-bottom: 0;
+}
+
+.layout_hint {
+  font-size: 25rpx;
+  color: black;
+}
+
+.layout_msg {
+  font-size: 25rpx;
+  color: black;
+}
+/**综合评分**/
+.mark_msg_wrap{
+  height: 60rpx;
+}
+.mark{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-weight: bold;
+}
+
+/**老师评语标签**/
+.evaluate_wrap{
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item_tag{
+  display: flex;
+  width: 180rpx;
+  height: 80rpx;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30rpx;
+  margin: 16rpx;
+  font-size: 30rpx;
+  background-color: #E2FEFA;
+  color: #00BFA5;
+}
+/**老师评价语言**/
+.evaluate_wrap_msg{
+  height: auto;
+  padding: 20rpx 40rpx;
+}
+.evaluate_msg{
+  font-size: 30rpx;
+  color: #a8a6a6;
+}

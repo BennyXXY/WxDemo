@@ -1,0 +1,73 @@
+<view class="main">
+  <!--课堂详情-->
+  <view class="class_wrap">
+    <view class="class_hint_wrap">
+      <view class="class_hint_side"></view>
+      <text class="class_hint">课堂详情</text>
+    </view>
+    <view class="class_layout_wrap">
+      <text class="layout_hint">课程名称</text>
+      <text class="layout_msg">一元一次方程</text>
+    </view>
+    <view class="class_layout_wrap">
+      <text class="layout_hint">授课老师</text>
+      <text class="layout_msg">Benny nigulasi</text>
+    </view>
+    <view class="class_layout_wrap">
+      <text class="layout_hint">课程时间</text>
+      <text class="layout_msg">2020/11/25 12:00～14:30</text>
+    </view>
+    <view class="class_layout_wrap">
+      <text class="layout_hint">课程时长</text>
+      <text class="layout_msg">120分</text>
+    </view>
+    <view class="class_layout_wrap">
+      <text class="layout_hint">学生</text>
+      <text class="layout_msg">benny</text>
+    </view>
+    <view class="class_layout_wrap">
+      <text class="layout_hint">实际时长</text>
+      <view class="layout_msg">120分</view>
+    </view>
+  </view>
+
+  <!--综合评分-->
+  <view class="class_wrap">
+    <view class="class_hint_wrap">
+      <view class="class_hint_side"></view>
+      <text class="class_hint">综合评分</text>
+    </view>
+    <view class="mark_msg_wrap">
+      <text class="mark">90 分</text>
+    </view>
+  </view>
+
+  <!--老师评语-->
+  <view class="class_wrap">
+    <view class="class_hint_wrap">
+      <view class="class_hint_side"></view>
+      <text class="class_hint">老师评语</text>
+    </view>
+    <view class="evaluate_wrap">
+      <view class="item_tag" wx:for="{{itemTag}}" wx:key="index">进步飞快</view>
+    </view>
+    <view class="evaluate_wrap_msg">
+      <text class="evaluate_msg">禁停啊有有带你疼你但还是大家开始搭建客户收到安康世界很大收到</text>
+    </view>
+  </view>
+
+  <!--课堂互动情况-->
+  <view class="class_wrap">
+    <view class="class_hint_wrap">
+      <view class="class_hint_side"></view>
+      <text class="class_hint">课堂互动情况</text>
+    </view>
+    
+  </view>
+
+
+
+
+
+
+</view>
