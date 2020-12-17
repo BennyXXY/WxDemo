@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/msg2/index2",
+    "pages/kz2/index2",
     "pages/kz/index",
     "pages/my/index",
     "pages/msg/index",
@@ -34,7 +35,7 @@
         "selectedIconPath": "icon/index_active.png"
       },
       {
-        "pagePath": "pages/msg2/index2",
+        "pagePath": "pages/kz2/index2",
         "text": "分类",
         "iconPath": "icon/category.png",
         "selectedIconPath": "icon/category_active.png"

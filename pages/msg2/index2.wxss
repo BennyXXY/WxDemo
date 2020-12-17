@@ -18,6 +18,7 @@
 /**课堂详情布局**/
 .class_wrap {
   display: flex;
+  height: auto;
   flex-direction: column;
   background-color: white;
   border: 1rpx solid black;
@@ -67,11 +68,13 @@
   font-size: 25rpx;
   color: black;
 }
+
 /**综合评分**/
-.mark_msg_wrap{
+.mark_msg_wrap {
   height: 60rpx;
 }
-.mark{
+
+.mark {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,13 +83,14 @@
 }
 
 /**老师评语标签**/
-.evaluate_wrap{
+.evaluate_wrap {
   height: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.item_tag{
+
+.item_tag {
   display: flex;
   width: 180rpx;
   height: 80rpx;
@@ -98,12 +102,69 @@
   background-color: #E2FEFA;
   color: #00BFA5;
 }
+
 /**老师评价语言**/
-.evaluate_wrap_msg{
+.evaluate_wrap_msg {
   height: auto;
   padding: 20rpx 40rpx;
 }
-.evaluate_msg{
+
+.evaluate_msg {
   font-size: 30rpx;
   color: #a8a6a6;
+}
+
+/**课堂互动**/
+.interact_wrap {
+  margin-bottom: 20rpx;
+}
+
+.interact_items {
+  display: flex;
+  justify-content: center;
+  margin: 16rpx 0;
+}
+
+.interact_hint {
+  display: flex;
+  flex: 2;
+  justify-content: center;
+  align-items: center;
+  font-size: 20rpx;
+}
+
+.interact_out {
+  flex: 5;
+  height: 14px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.interact_in {
+  height: 100%;
+  border-radius: 20px;
+}
+
+.interact_num {
+  display: flex;
+  flex: 2;
+  justify-content: center;
+  align-items: center;
+  font-size: 20rpx;
+}
+
+/**奖励图片**/
+
+.rewards_wrap{
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.rewards_item {
+  width: 40%;
+  height: 160rpx;
+  margin: 20rpx 20rpx;
+  border: 1rpx solid red;
+  border-radius: 30rpx;
 }

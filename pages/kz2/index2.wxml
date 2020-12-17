@@ -1,0 +1,30 @@
+<view class="main">
+  <view class="search">
+    <icon bindtap="leftact" class="left" type="search"></icon>
+    <input class="input" value="{{input}}" placeholder="课桌搜索" />
+    <icon bindtap="rightact" class="right" type="clear"></icon>
+</view>
+
+  <!--课堂详情-->
+  <view class="class_wrap" wx:for='{{checkList}}' wx:key='index'>
+    <view class="class_hint_wrap">
+      <view class="class_title">
+        <view class="class_hint_side"></view>
+        <text class="class_hint">课堂详情</text>
+      </view>
+      <view class="class_check">查看</view>
+    </view>
+    <view class="class_layout_wrap">
+      <text class="layout_hint">课程名称</text>
+      <text class="layout_msg">一元一次方程</text>
+    </view>
+    <view class="class_layout_wrap">
+      <text class="layout_hint">授课老师</text>
+      <text class="layout_msg">Benny nigulasi</text>
+    </view>
+    <view class="class_layout_wrap">
+      <text class="layout_hint">课程时间</text>
+      <text class="layout_msg">2020/11/25 12:00～14:30</text>
+    </view>
+  </view>
+</view>

@@ -62,7 +62,22 @@
       <view class="class_hint_side"></view>
       <text class="class_hint">课堂互动情况</text>
     </view>
-    
+    <!--互动表现-->
+    <view class="interact_wrap">
+      <view class="interact_items" wx:for='{{interactMsg}}' wx:key="index">
+        <text class="interact_hint">表现出色</text>
+        <view class='interact_out'>
+          <view class='interact_in' style="width:{{pros}}%;background-color:{{colorArr[index]}}" data-key="{{key}}">
+          </view>
+        </view>
+        <text class="interact_num">5次</text>
+      </view>
+    </view>
+    <!--图片-->
+    <view class="rewards_wrap">
+      <view class="rewards_item" wx:for='{{interactMsg}}' wx:key='index'>
+      </view>
+    </view>
   </view>
 
 

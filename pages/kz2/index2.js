@@ -1,14 +1,11 @@
-// pages/msg2/index2.js
+// pages/kz2/index2.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    itemTag:[0,1,2,3,4,5,],
-    interactMsg:[0,1,2,3,4,5],
-    pros:50,
-    colorArr: ['#32BEFF','#50E3C2','#4E8BF5','#00BCD4','#DF50E3','red','blue','yellow'],
+    checkList:[1,2,3,4,5,6]
   },
 
   /**
