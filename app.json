@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/promess/index",
     "pages/msg2/index2",
     "pages/kz2/index2",
     "pages/kz/index",
@@ -29,7 +30,7 @@
   "tabBar": {
     "selectedColor": "#0094ff",
     "list": [{
-        "pagePath": "pages/msg2/index2",
+        "pagePath": "pages/promess/index",
         "text": "首页",
         "iconPath": "icon/index.png",
         "selectedIconPath": "icon/index_active.png"
